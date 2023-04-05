@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    height: 300px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .row-image {
+    flex: 1;
+    height: 500px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .row-content {
+    flex: 2;
+    margin-left: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ad {
+    flex: 0.5;
+    background-color: #eee;
+    height: 100%;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .footer {
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-with-ad {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content {
+    flex: 2;
+    margin-right: 10px;
+  }
+  
